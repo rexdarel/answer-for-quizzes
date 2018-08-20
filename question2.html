@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Answer for Question 2 Quiz 2</title>
+</head>
+<body>
+	<input id="in" type="number">
+	<button id="go" type="button" onclick="print()">Go!</button>
+	<div id="out"></div>
+</body>
+<script type="text/javascript">
+	function print()
+	{
+		var input = document.getElementById('in');
+		var out = document.getElementById("out");
+		
+		var val = input.value;
+		out.innerHTML = val;
+		input.disabled = true;
+	}
+</script>
+</html>

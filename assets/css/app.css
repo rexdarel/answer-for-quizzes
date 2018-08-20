@@ -1,0 +1,87 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin-bottom: 60px; /* Margin bottom by footer height */
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px; /* Set the fixed height of the footer here */
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #f5f5f5;
+}
+
+.container {
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px;
+}
+
+.custom-img {
+	width: 230px;
+	height: 200px;
+}
+
+.hero-img {
+	width: 750px;
+	height: 500px;
+}
+
+.hero-txt {
+	margin-top: -100px;
+}
+
+.main-div {
+	padding-top: 20px;
+}
+
+.margin-section {
+	margin-top: 20px;
+}
+
+.square{
+    width: 100%;
+    height: 100%;
+    background-color: #007bff;
+    padding: 20px;
+}
+
+.video-frame {
+	width: 450px;
+	height: 300px;
+}
+
+iframe {
+    border-width: 0px !important;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+}
+
+.card-form {
+	width: 450px;
+}
+
+@media (max-width: 576px) {
+	.hero-img {
+		width: 375px;
+		height: 250px;
+	}
+
+	.custom-img-long {
+		width: 350px;
+		height: 200px;
+	}
+
+	.video-frame {
+		width: 100%;
+		height: 250px;
+	}
+
+	.card-form {
+		width: 100%;
+	}
+}
