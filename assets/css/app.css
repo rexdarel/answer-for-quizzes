@@ -5,6 +5,23 @@ html {
 body {
   margin-bottom: 60px; /* Margin bottom by footer height */
 }
+
+.color-red {
+	color: #FF0000;
+}
+
+.color-green {
+	color: #00A63A;
+}
+
+.color-blue {
+	color: #0056B1;
+}
+
+.font-small {
+	font-size: 14px;
+}
+
 .footer {
   position: absolute;
   bottom: 0;
@@ -26,12 +43,8 @@ body {
 }
 
 .hero-img {
-	width: 750px;
-	height: 500px;
-}
-
-.hero-txt {
-	margin-top: -100px;
+	width: 430px;
+	height: 320px;
 }
 
 .main-div {
@@ -50,7 +63,7 @@ body {
 }
 
 .video-frame {
-	width: 450px;
+	width: 750px;
 	height: 300px;
 }
 
@@ -83,5 +96,26 @@ iframe {
 
 	.card-form {
 		width: 100%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.div-margin {
+		margin-left: 50px;
+		margin-right: 50px;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	.div-margin {
+		margin-left: 50px;
+		margin-right: 50px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.div-margin {
+		margin-left: 50px;
+		margin-right: 50px;
 	}
 }
