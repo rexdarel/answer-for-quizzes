@@ -1,10 +1,4 @@
-html {
-  position: relative;
-  min-height: 100%;
-}
-body {
-  margin-bottom: 60px; /* Margin bottom by footer height */
-}
+
 
 .color-red {
 	color: #FF0000;
@@ -15,7 +9,15 @@ body {
 }
 
 .color-blue {
-	color: #0056B1;
+	color: #0057B1;
+}
+
+.color-blue-bg {
+	background-color: #0057B1;
+}
+
+.color-grey {
+	background-color: #F6F6F6;
 }
 
 .font-small {
@@ -86,7 +88,7 @@ iframe {
 
 	.custom-img-long {
 		width: 350px;
-		height: 200px;
+		height: 140px;
 	}
 
 	.video-frame {
@@ -111,6 +113,18 @@ iframe {
 		margin-left: 50px;
 		margin-right: 50px;
 	}
+
+	.nav-center {
+		margin-left: -70px;
+	}
+
+	.nav-center-left {
+		margin-left: 70px;
+	}
+
+	.nav-right {
+		margin-right: -1000px;
+	}
 }
 
 @media (min-width: 1200px) {
@@ -118,4 +132,17 @@ iframe {
 		margin-left: 50px;
 		margin-right: 50px;
 	}
+
+	.nav-center {
+		margin-left: -70px;
+	}
+
+	.nav-center-left {
+		margin-left: 70px;
+	}
+
+	.nav-right {
+		margin-right: -1000px;
+	}
+
 }
